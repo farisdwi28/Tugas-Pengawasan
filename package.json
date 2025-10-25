@@ -1,0 +1,22 @@
+{
+  "name": "pengawasan-izin-api",
+  "version": "1.0.0",
+  "description": "API untuk pengawasan dan izin menggunakan Node.js dan MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["api", "nodejs", "mysql", "pengawasan", "izin"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
